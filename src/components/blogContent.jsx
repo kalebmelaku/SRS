@@ -9,7 +9,7 @@ function BlogContent()
         <>
             <div className="container border mb-4">
                 <img className="max-h-96 w-full" src={Img} alt="" />
-                <div className="max-w-[1240px] mx-auto p-8">
+                <div className="mx-auto p-8">
                     <h3 className='text-left text-3xl pb-8 text-orange-500 font-bold'>Blog Title</h3>
                     <Link className='text-left text-xl font-bold'>Some representative placeholder content for the Blog.</Link>
                     <ul className='text-sm flex pt-4 border-b pb-4'>

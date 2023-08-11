@@ -9,9 +9,9 @@ function About()
     return (
         <>
             <Navbar page="about" />
-            <Banner />
+            <Banner title="ABOUT US" subtitle="MORE ABOUT US!"/>
             <div className='about-us container mx-auto max-w-[1240px]'>
-                <div class="w-1/2 px-4">
+                <div class="w-full mx-auto px-4">
                     <img src={Img} alt="" />
                     <p>Please tell your friends about TemplateMo website.
                         Thank you. You can browse through different

@@ -4,6 +4,7 @@ import Carousal from '../components/carousal';
 import BlogPost from '../components/blogPost';
 import Footer from '../components/footer';
 
+
 function Home()
 {
     return (
@@ -13,6 +14,7 @@ function Home()
             <div className='max-w-[1240px] mx-auto p-4'>
                 <BlogPost />
             </div>
+            
             <Footer/>
         </>
     );

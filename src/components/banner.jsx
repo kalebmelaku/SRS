@@ -12,7 +12,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 import "../assets/styles/main.css";
-function Banner()
+function Banner(props)
 {
     return (
         <>
@@ -36,8 +36,8 @@ function Banner()
                     <div className="slide-container ">
                         <img src={Img} className="" alt="..." />
                         <div className="text max-w-[1240px] mx-auto">
-                            <p className='text-left text-2xl md:text-3xl text-orange-500 font-bold'>ABOUT US</p>
-                            <h2 className='text-left text-3xl py-3 md:text-4xl text-white'>MORE ABOUT US!</h2>
+                            <p className='text-left text-2xl md:text-3xl text-orange-500 font-bold'>{props.title}</p>
+                            <h2 className='text-left text-3xl py-3 md:text-4xl text-white'>{props.subtitle}</h2>
                         </div>
                     </div>
                 </SwiperSlide>
