@@ -15,6 +15,24 @@
   height: auto;
 }
 
+.banner {
+  max-height: 30vh;
+  height: auto;
+}
+.banner img {
+  width: 100%;
+  max-height: 30vh;
+  height: auto;
+}
+.banner .slide-container::before {
+  background-color: rgba(0, 0, 0, 0.6431372549);
+}
+.banner .slide-container .text {
+  top: calc(50vh - 20rem);
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .mob-nav {
   z-index: 1000;
 }

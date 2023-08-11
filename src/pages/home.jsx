@@ -8,7 +8,7 @@ function Home()
 {
     return (
         <>
-            <NavBar />
+            <NavBar page= "home" />
             <Carousal />
             <div className='max-w-[1240px] mx-auto p-4'>
                 <BlogPost />
