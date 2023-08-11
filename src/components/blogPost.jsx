@@ -8,13 +8,13 @@ function BlogPost()
         <>
             <div className="container mx-auto">
                 <div className="flex flex-col md:flex-row">
-                    <div className="mx-auto mt-3 w-full md:max-w-4/5">
+                    <div className="mx-auto mt-3 md:max-w-3/4">
                         <BlogContent />
                         <BlogContent />
                         <BlogContent />
                         <Link className='btn bg-orange-500 hover:bg-orange-600 text-center block  text-white w-full py-3 px-4'>VIEW ALL POSTS</Link>
                     </div>
-                    <div className="ml-5 mt-3 w-full md:max-w-2/5 px-4 my-4">
+                    <div className="ml-5 mt-3  px-4 my-4">
                         <form action="">
                             <input className='py-3 px-2 w-full' type="search" name="" id="" placeholder='TYPE TO SEARCH' />
                         </form>

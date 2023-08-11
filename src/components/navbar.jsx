@@ -17,19 +17,19 @@ const Navbar = () => {
                 <h1 className='text-4xl font-bold'>SRS</h1>
                 <ul className='desktop font-bold hidden md:flex'>
                     <li className='p-4 text-lg'>
-                        <a className='hover:text-orange-500' href="/">HOME</a>
+                        <a className='text-sm hover:text-orange-500' href="/">HOME</a>
                     </li>
                     <li className='p-4 text-lg'>
-                        <a className='hover:text-orange-500' href="/about">ABOUT US</a>
+                        <a className='text-sm hover:text-orange-500' href="/about">ABOUT US</a>
                     </li>
                     <li className='p-4 text-lg'>
-                        <a className='hover:text-orange-500' href="/blogs">BLOGS</a>
+                        <a className='text-sm hover:text-orange-500' href="/blogs">BLOGS</a>
                     </li>
                     <li className='p-4 text-lg'>
-                        <a className='hover:text-orange-500' href="/post">POST DETAILS</a>
+                        <a className='text-sm hover:text-orange-500' href="/post">POST DETAILS</a>
                     </li>
                     <li className='p-4 text-lg'>
-                        <a className='hover:text-orange-500' href="/contact">CONTACT US</a>
+                        <a className='text-sm hover:text-orange-500' href="/contact">CONTACT US</a>
                     </li>
                 </ul>
                 <div onClick={handleNav} className='block md:hidden'>
