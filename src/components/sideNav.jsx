@@ -4,9 +4,9 @@ function SideNav()
 {
     return (
         <>
-            <div className="ml-5 mt-3  px-4 my-4">
+            <div className="ml-5 mt-3 px-4 my-4">
                 <form action="">
-                    <input className='py-3 px-2 w-full' type="search" name="" id="" placeholder='TYPE TO SEARCH' />
+                    <input className='py-3 px-2 w-full text-xs rounded border-slate-200' type="search" name="" id="" placeholder='TYPE TO SEARCH' />
                 </form>
 
                 <div className="w-full mx-auto">

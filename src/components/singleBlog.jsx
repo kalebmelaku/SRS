@@ -3,7 +3,7 @@ import Img from '../assets/img/carousalImg.jpg';
 import { Link } from 'react-router-dom';
 import { AiFillTags } from 'react-icons/ai';
 import { BsFillShareFill } from 'react-icons/bs';
-function BlogContent()
+function SingleBlog()
 {
     return (
         <>
@@ -18,6 +18,8 @@ function BlogContent()
                         <li><p className='text-xs px-1'>12 comments</p></li>
                     </ul>
                     <div className="desc py-4 text-sm border-b">
+                        <p className='mb-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, facere eaque, officia neque necessitatibus, atque vero veritatis dolorem sed at fuga ullam aperiam! Ipsam, unde ullam! Deleniti tempora vel voluptas esse sed praesentium dolorem sapiente fugit voluptatem atque omnis nisi delectus eaque facilis, ipsum obcaecati unde excepturi, adipisci laudantium commodi?</p>
+                        <p className='mb-2'>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, facere eaque, officia neque necessitatibus, atque vero veritatis dolorem sed at fuga ullam aperiam! Ipsam, unde ullam! Deleniti tempora vel voluptas esse sed praesentium dolorem sapiente fugit voluptatem atque omnis nisi delectus eaque facilis, ipsum obcaecati unde excepturi, adipisci laudantium commodi?</p>
                         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus, facere eaque, officia neque necessitatibus, atque vero veritatis dolorem sed at fuga ullam aperiam! Ipsam, unde ullam! Deleniti tempora vel voluptas esse sed praesentium dolorem sapiente fugit voluptatem atque omnis nisi delectus eaque facilis, ipsum obcaecati unde excepturi, adipisci laudantium commodi?</p>
                     </div>
                     <div className="flex mt-2 items-center justify-between">
@@ -36,4 +38,4 @@ function BlogContent()
     );
 }
 
-export default BlogContent;
+export default SingleBlog;

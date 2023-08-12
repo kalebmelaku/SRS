@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../components/navbar';
 import Banner from '../components/banner';
 import Footer from '../components/footer';
@@ -6,12 +6,16 @@ import Img from '../assets/img/carousalImg.jpg';
 import BoxDesc from '../components/boxDesc';
 function About()
 {
+    useEffect(() =>
+    {
+        document.title = 'About Us'
+    })
     return (
         <>
-            <Navbar page="about" />
+            <Navbar/>
             <Banner title="ABOUT US" subtitle="MORE ABOUT US!"/>
             <div className='about-us container mx-auto max-w-[1240px]'>
-                <div class="w-full mx-auto px-4">
+                <div className="w-full mx-auto px-4">
                     <img src={Img} alt="" />
                     <p>Please tell your friends about TemplateMo website.
                         Thank you. You can browse through different
@@ -26,16 +30,16 @@ function About()
 
                 </div>
 
-                <div class="about-box">
+                <div className="about-box">
                     <BoxDesc/>
                     <BoxDesc/>
                 </div>
-                <div class="about-box">
+                <div className="about-box">
                     <BoxDesc/>
                     <BoxDesc/>
                     <BoxDesc/>
                 </div>
-                <div class="about-box">
+                <div className="about-box">
                     <BoxDesc/>
                     <BoxDesc/>
                     <BoxDesc/>
