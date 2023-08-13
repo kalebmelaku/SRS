@@ -13,9 +13,9 @@ function Contact()
         <>
             <Navbar />
             <Banner title="CONTACT US" subtitle="LET'S STAY IN TOUCH!" />
-            <div className="max-w-[1240px] mx-auto grid grid-cols-2">
+            <div className="max-w-[1240px] mx-auto grid grid-cols-1 md:grid-cols-2">
                 <div className="mx-auto w-full px-4">
-                    <h2 className="font-bold text-2xl my-4">SEND US A MESSAGE</h2>
+                    <h2 className="font-bold  text-2xl my-4">SEND US A MESSAGE</h2>
                     <form className="w-full px-8 pt-6 pb-8 mb-4">
                         <div className="mb-8 grid grid-cols-2 gap-4">
                             <input className="text-xs appearance-none border-slate-200 rounded w-full py-2 px-3 text-gray-700 focus:outline-none focus:shadow-outline" id="name" type="text" placeholder="YOUR NAME" />
